@@ -1,0 +1,46 @@
+name: SG Weekly fetch
+ 
+on:
+  schedule:
+    # 10:00 AM Singapore time (UTC+8) = 02:00 UTC, every Sunday
+    - cron: '0 2 * * 0'
+  workflow_dispatch:   # also lets you run manually from the Actions tab
+ 
+permissions:
+  contents: write       # needed to commit the JSON back to the repo
+ 
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+ 
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 feedparser google-genai python-dateutil
+ 
+      - name: Run crawler
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python sg_weekly_crawler.py
+ 
+      - name: Upload JSON as artifact (download from Actions tab)
+        uses: actions/upload-artifact@v4
+        with:
+          name: sg-weekly-json
+          path: out/
+          retention-days: 90
+ 
+      - name: Commit JSON back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/
+          git diff --staged --quiet || git commit -m "Weekly fetch: $(date -u +'%Y-%m-%d')"
+          git push
