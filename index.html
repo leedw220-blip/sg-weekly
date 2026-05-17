@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="SG Weekly">
+<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%23E6F1FB'/><text x='50%25' y='52%25' text-anchor='middle' dominant-baseline='middle' font-family='-apple-system,system-ui,sans-serif' font-size='80' font-weight='600' fill='%230C447C'>SG</text></svg>">
+<title>SG Weekly</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    background: #f2f2f7;
+    color: #1c1c1e;
+    overflow: hidden;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #000; color: #f2f2f7; }
+    .header, .tabs { background: #1c1c1e; border-color: #38383a !important; }
+    .card { background: #1c1c1e; border-color: #38383a; }
+    .body { background: #000; }
+    input, select { background: #1c1c1e !important; color: #f2f2f7 !important; border-color: #38383a !important; }
+    .subtitle, .date, .bullets, .week-header, .hint, .empty { color: #8e8e93 !important; }
+    .tab { color: #8e8e93; }
+    .tab.active { background: #2c2c2e; color: #f2f2f7; }
+    .fetchbtn { background: #1f3a5f; color: #6daaff; border-color: #2c5283; }
+  }
+
+  .app { display: flex; flex-direction: column; height: 100vh; height: 100dvh; max-width: 500px; margin: 0 auto; background: inherit; }
+  .header { padding: 12px 16px 12px; background: rgba(255,255,255,0.94); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 0.5px solid rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 10; }
+  .title { font-size: 28px; font-weight: 700; margin: 0; letter-spacing: -0.4px; }
+  .subtitle { font-size: 13px; color: #8e8e93; margin: 2px 0 0; }
+  .tabs { display: flex; gap: 4px; padding: 6px 8px; background: rgba(255,255,255,0.94); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 0.5px solid rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 9; }
+  .tab { flex: 1; padding: 9px 4px; font-size: 14px; font-weight: 600; text-align: center; color: #8e8e93; background: transparent; border: none; border-radius: 8px; cursor: pointer; font-family: inherit; }
+  .tab.active { background: #e5e5ea; color: #1c1c1e; }
+  .body { flex: 1; overflow-y: auto; padding: 12px 12px 80px; -webkit-overflow-scrolling: touch; }
+  .controls { display: flex; gap: 8px; margin-bottom: 12px; }
+  .controls input, .controls select {
+    flex: 1; padding: 10px 12px; font-size: 15px;
+    background: #fff; border: 0.5px solid #d1d1d6; border-radius: 10px;
+    font-family: inherit; -webkit-appearance: none; appearance: none;
+  }
+  .controls select { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%238e8e93' d='M1 1l5 5 5-5'/></svg>"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px; }
+  .fetchbtn { width: 100%; padding: 12px; font-size: 15px; font-weight: 600; background: #e6f1fb; color: #007aff; border: none; border-radius: 12px; cursor: pointer; margin-bottom: 14px; font-family: inherit; }
+  .fetchbtn:active { opacity: 0.6; }
+  .card { background: #fff; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 14px; padding: 14px 16px; margin-bottom: 10px; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .source { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 10px; letter-spacing: 0.2px; }
+  .source.st { background: #fce4e4; color: #a31313; }
+  .source.cna { background: #e1edfb; color: #0a4a8f; }
+  .source.bt { background: #e4f1d4; color: #2a5f0a; }
+  .source.mother { background: #fde8c8; color: #7a3a07; }
+  .source.tsl { background: #ebe7ff; color: #3a2f9c; }
+  .date { font-size: 11px; color: #8e8e93; }
+  .headline { font-size: 15px; font-weight: 600; line-height: 1.35; margin: 0 0 8px; color: inherit; }
+  .bullets { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.5; color: #3a3a3c; }
+  @media (prefers-color-scheme: dark) { .bullets { color: #c7c7cc; } }
+  .bullets li { margin-bottom: 3px; }
+  .link { display: inline-block; margin-top: 10px; font-size: 13px; color: #007aff; text-decoration: none; font-weight: 500; }
+  .week-header { font-size: 12px; font-weight: 600; color: #8e8e93; text-transform: uppercase; letter-spacing: 0.5px; margin: 14px 0 8px; padding: 0 4px; }
+  .week-header:first-child { margin-top: 4px; }
+  .empty { text-align: center; padding: 48px 20px; color: #8e8e93; font-size: 14px; }
+  .hint { font-size: 11px; color: #8e8e93; text-align: center; padding: 16px 12px 24px; }
+  .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: none; align-items: center; justify-content: center; z-index: 100; padding: 20px; }
+  .modal-bg.show { display: flex; }
+  .modal { background: #fff; border-radius: 14px; max-width: 360px; width: 100%; padding: 22px; }
+  @media (prefers-color-scheme: dark) { .modal { background: #1c1c1e; } }
+  .modal h3 { margin: 0 0 8px; font-size: 17px; }
+  .modal p { margin: 0 0 12px; font-size: 14px; color: #8e8e93; line-height: 1.45; }
+  .modal textarea { width: 100%; min-height: 180px; padding: 10px; font-size: 13px; font-family: -apple-system,SFMono-Regular,Menlo,monospace; border: 0.5px solid #d1d1d6; border-radius: 8px; background: #f2f2f7; }
+  @media (prefers-color-scheme: dark) { .modal textarea { background: #2c2c2e; color: #f2f2f7; border-color: #38383a; } }
+  .modal-actions { display: flex; gap: 8px; margin-top: 14px; }
+  .modal-actions button { flex: 1; padding: 10px; font-size: 14px; font-weight: 600; border-radius: 10px; border: none; cursor: pointer; font-family: inherit; }
+  .btn-primary { background: #007aff; color: #fff; }
+  .btn-secondary { background: #e5e5ea; color: #1c1c1e; }
+  @media (prefers-color-scheme: dark) { .btn-secondary { background: #2c2c2e; color: #f2f2f7; } }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="header">
+    <h1 class="title">SG Weekly</h1>
+    <p class="subtitle">Singapore in 5 minutes \u00b7 Sundays 10am SGT</p>
+  </div>
+  <div class="tabs">
+    <button class="tab active" data-tab="latest">This week</button>
+    <button class="tab" data-tab="archive">Archive</button>
+  </div>
+  <div class="body" id="body"></div>
+</div>
+
+<div class="modal-bg" id="modal-bg">
+  <div class="modal">
+    <h3>Add new week</h3>
+    <p>Paste the JSON Claude gives you each Sunday. Ask Claude: "Fetch this week\u2019s SG news for the app \u2014 JSON only."</p>
+    <textarea id="paste-area" placeholder='{"weekId":"2026-W21","label":"Week of May 18-24, 2026","fetchedAt":"...","cards":[{"src":"st","date":"2026-05-20","headline":"...","bullets":["...","..."],"url":"https://..."}]}'></textarea>
+    <div class="modal-actions">
+      <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+      <button class="btn-primary" onclick="addWeek()">Add to archive</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Seed: Week of May 11-17, 2026 \u2014 general-interest Singapore stories
+  const seedWeek = {
+    weekId: '2026-W20',
+    label: 'Week of May 11-17, 2026',
+    fetchedAt: '2026-05-17T10:00:00+08:00',
+    cards: [
+      // === The Straits Times (5) ===
+      { src: 'st', date: '2026-05-15', headline: 'Doctor jailed 18 months after patient died from aesthetic chelation treatment', bullets: [
+        'Dr Chan Bingyi, 38, administered EDTA too quickly at Bras Basah clinic in 2019',
+        'Property agent Lau Li Ting, 31, suffered cardiac arrest and died five days later',
+        'Judge slammed doctor for concealing EDTA use from paramedics and family',
+        'Chan remains on MOH registry; plans to appeal both conviction and sentence'
+      ], url: 'https://www.straitstimes.com/singapore/courts-crime' },
+      { src: 'st', date: '2026-05-14', headline: 'Circle Line weekend disruption ends as CCL6 commissioning wraps up', bullets: [
+        'CCL services ran from 9am Sundays since April 11 for CCL6 integration tests',
+        'Final disruption weekend ends May 17; full closure of the loop coming later this year',
+        'TEL5 begins Friday-Saturday late-night service cuts from May 22 to July 4',
+        'LTA running shuttle buses S51, S52, S53 along TEL corridor during the works'
+      ], url: 'https://www.straitstimes.com/singapore/transport' },
+      { src: 'st', date: '2026-05-13', headline: 'June BTO launch to offer 6,900 flats across 5 towns including first Bishan in 40 years', bullets: [
+        'Seven projects in Ang Mo Kio, Bishan, Bukit Merah, Sembawang, Woodlands',
+        'Lakeview at Bishan is the first BTO in the area in over four decades',
+        'Plus and Prime flats carry a 10-year MOP from key collection',
+        'Application window closes mid-May; sales exercise in second week of June'
+      ], url: 'https://www.straitstimes.com/singapore/housing' },
+      { src: 'st', date: '2026-05-12', headline: 'Singapore-bound SIA flight from NZ: two doctors save passenger\u2019s life mid-air', bullets: [
+        'Malaysian couple Boo Chin Fong and Tan Pei Jun, both 34, on 10-hour flight home',
+        'Performed CPR and set up a transfusion line on board after passenger collapsed',
+        'Couple had handled another in-flight emergency in NZ just days prior',
+        'Both doctors said they were just doing their jobs; story went viral after'
+      ], url: 'https://www.straitstimes.com/singapore' },
+      { src: 'st', date: '2026-05-11', headline: 'Malaysian woman, 26, charged in MAS impersonation scam wave', bullets: [
+        'Victim told her identity was used to buy insurance, then accused of being a mule',
+        'Surrendered jewellery to suspect in Telok Blangah to \u201cprove innocence\u201d',
+        'Brings total Malaysians arrested in such schemes since March 2026 to 23',
+        'MAS reminds public it will never ask anyone to hand over cash or valuables'
+      ], url: 'https://www.straitstimes.com/singapore/courts-crime' },
+
+      // === CNA (5) ===
+      { src: 'cna', date: '2026-05-16', headline: 'Iran war fallout: Air India cancels 27% of international flights; SIA monitoring', bullets: [
+        'Strait of Hormuz airspace restrictions force major schedule cuts at Air India',
+        'Singapore Airlines holds a stake in Air India \u2014 monitoring exposure closely',
+        'Global airlines rerouting; jet fuel costs rising across the region',
+        'No immediate impact reported on SIA\u2019s own schedule out of Changi'
+      ], url: 'https://www.channelnewsasia.com/business' },
+      { src: 'cna', date: '2026-05-14', headline: 'Singapore hiring intentions drop sharply as employers turn cautious', bullets: [
+        'Hiring intentions fell from 54.6% in February to 44.6% in March',
+        'Wage increase expectations dropped from 39.3% to 25.4% over same period',
+        'Total employment still grew \u2014 18th straight quarter \u2014 but pace slowed to +5,000',
+        'SkillsFuture Jobseeker Support scheme offers up to $6,000 over six months'
+      ], url: 'https://www.channelnewsasia.com/singapore' },
+      { src: 'cna', date: '2026-05-13', headline: 'Five Footway Festival returns to Chinatown with lion dance, opera, puppet shows', bullets: [
+        'Smith Street comes alive on May 2-3 and 9-10 for heritage celebration',
+        'Free entry; activities run through evening with live performances',
+        'Part of broader Chinatown rejuvenation push by STB and community',
+        'Pairs naturally with food trails through Maxwell and Chinatown Complex'
+      ], url: 'https://www.channelnewsasia.com/singapore' },
+      { src: 'cna', date: '2026-05-12', headline: 'New AV legislation: clearer safety, liability and insurance rules for autonomous vehicles', bullets: [
+        'Proposed law spells out who is liable in AV-related incidents',
+        'Insurance and enforcement regimes also being clarified',
+        'Public trials by ST Engineering and others to expand with the framework',
+        'Part of Singapore\u2019s push to be a leading AV testbed in Asia'
+      ], url: 'https://www.channelnewsasia.com/singapore' },
+      { src: 'cna', date: '2026-05-11', headline: 'SCDF rescuers find 20+ cats per home in latest hoarding cases', bullets: [
+        'Seasoned rescuer says all homes in recent cases had over 20 cats',
+        'AVS investigating multiple cases of suspected animal welfare breaches',
+        'Calls renewed for tighter pet ownership limits in HDB flats',
+        'Hotline 1800-476-1600 for tip-offs on suspected animal hoarding'
+      ], url: 'https://www.channelnewsasia.com/singapore' },
+
+      // === The Business Times (5) \u2014 property, retail, F&B, consumer ===
+      { src: 'bt', date: '2026-05-15', headline: 'CapitaLand closes Paragon acquisition, divests Asia Square Tower 2', bullets: [
+        'Paragon adds prime Orchard Road retail after CapitaSpring and ION deals',
+        'Asia Square T2 sale recycles capital away from CBD office segment',
+        'Move bets on resilient luxury retail spending over hybrid-work-pressured offices',
+        'REIT unitholders watching for asset enhancement plans at Paragon'
+      ], url: 'https://www.businesstimes.com.sg/property' },
+      { src: 'bt', date: '2026-05-14', headline: 'HDB resale prices fall for the first time since 2019 \u2014 but 412 flats still sold above $1m', bullets: [
+        'Q1 2026 resale price index dipped \u2014 first decline in over five years',
+        'Million-dollar flats still flowing through mature estates and prime locations',
+        'Analysts forecast 2-4% full-year HDB resale price growth in 2026',
+        'MOP wave from 2021 launches starting to add supply to the market'
+      ], url: 'https://www.businesstimes.com.sg/property' },
+      { src: 'bt', date: '2026-05-13', headline: '16 new cafes, bars and restaurants open in Singapore this month', bullets: [
+        'Seoul & So Korean BBQ launches at National Gallery with $35 lunch sets',
+        'Hillion Mall Kopitiam reopens with hotel-inspired food hall concept',
+        'Cheese Wonder, viral Hokkaido cheesecake, pops up at ION till July 3',
+        'New tonkatsu specialist and several rooftop bars also debuting'
+      ], url: 'https://www.businesstimes.com.sg/lifestyle' },
+      { src: 'bt', date: '2026-05-12', headline: 'Singapore prime retail rents grew 2.5% in 2025, Knight Frank sees 2-4% in 2026', bullets: [
+        'Tourist arrivals back near pre-pandemic levels supporting Orchard footfall',
+        'Suburban malls also seeing rent firming on stable F&B demand',
+        'Limited new supply through 2027 keeps landlords with pricing power',
+        'F&B remains the standout category for new lease take-up'
+      ], url: 'https://www.businesstimes.com.sg/property' },
+      { src: 'bt', date: '2026-05-11', headline: 'Senior tech roles in SG see pay jump 10-13% as AI talent war heats up', bullets: [
+        'Software engineering leads with 10.8-12.6% average increases for senior roles',
+        'Cloud, security and AI/ML specialists command top end of the range',
+        'Singapore tech salaries holding firm despite broader hiring slowdown',
+        'Employers leaning on RSU top-ups and signing bonuses to compete'
+      ], url: 'https://www.businesstimes.com.sg/companies-markets' },
+
+      // === Mothership (3) ===
+      { src: 'mother', date: '2026-05-14', headline: 'Doctor couple, both 34, help save man\u2019s life on SIA flight from NZ to Singapore', bullets: [
+        'Malaysian doctors Boo Chin Fong and Tan Pei Jun on 10-hour flight home',
+        'Performed CPR and set up transfusion to administer medication mid-flight',
+        'Couple had also handled an in-flight emergency just days earlier in NZ',
+        'Joked their next holiday would be a much less eventful flight'
+      ], url: 'https://mothership.sg/2026/05/malaysia-doctor-couple-save-man-life-singapore-airline-flight/' },
+      { src: 'mother', date: '2026-05-13', headline: 'Sheng Siong uses AI to track repeat wine theft suspects', bullets: [
+        'Supermarket chain rolls out AI-powered shoplifting detection across stores',
+        'Case of a repeat wine theft drew attention to the new system',
+        'Other retailers expected to follow suit as shrinkage costs rise',
+        'Privacy advocates question scope of in-store surveillance data'
+      ], url: 'https://mothership.sg/' },
+      { src: 'mother', date: '2026-05-09', headline: 'Amos Yee beaten up by cosplayer at Doujin Market anime convention', bullets: [
+        'Convicted sex offender filmed being attacked outside Suntec convention hall',
+        '18-year-old cosplayer arrested for causing public nuisance through assault',
+        'Organisers cancelled Yee\u2019s tickets and moved to ban him from future events',
+        'Attacker claimed self-defence; police investigations ongoing'
+      ], url: 'https://mothership.sg/2026/05/amos-yee-beaten-anime-convention/' },
+
+      // === TSL (3) ===
+      { src: 'tsl', date: '2026-05-15', headline: '20 best things to do this weekend in Singapore (May 15-17)', bullets: [
+        'SIFA 2026 launches with \u201cLegacy\u201d theme \u2014 aerial performances and installations',
+        'Boutiques Singapore Spring/Summer Edition at F1 Pit Building',
+        'Marina Bay Playground reopens with new climbing hills and large slides',
+        'Coffee-themed Weekend Brew Club runs across three weekends in May'
+      ], url: 'https://thesmartlocal.com/read/things-to-do-this-weekend-singapore/' },
+      { src: 'tsl', date: '2026-05-13', headline: '16 new cafes, bars and restaurants in Singapore (May 2026)', bullets: [
+        'Seoul & So Korean BBQ opens at National Gallery Singapore',
+        'Hillion Mall Kopitiam reopens with hotel-inspired food hall concept',
+        'Cheese Wonder, viral Hokkaido cheesecake, pops up at ION till July 3',
+        'New rooftop bar openings across the CBD this month'
+      ], url: 'https://thesmartlocal.com/read/restaurants-cafes-2026/' },
+      { src: 'tsl', date: '2026-05-11', headline: 'Circle Line 6 extension: what to expect when it opens later this year', bullets: [
+        'Final stretch closes the loop, connecting HarbourFront and Marina Bay',
+        'New stations at Keppel, Cantonment, Prince Edward Road, Marina Bay',
+        'Expected to ease commute pressure on East-West and North-South lines',
+        'Final commissioning tests wrapping up on weekends through May'
+      ], url: 'https://thesmartlocal.com/' }
+    ]
+  };
+
+  const sourceMeta = {
+    st:     { label: 'Straits Times',  cls: 'st' },
+    cna:    { label: 'CNA',            cls: 'cna' },
+    bt:     { label: 'Business Times', cls: 'bt' },
+    mother: { label: 'Mothership',     cls: 'mother' },
+    tsl:    { label: 'TSL',            cls: 'tsl' }
+  };
+
+  const STORAGE_KEY = 'sg_weekly_archive_v2';
+  let archive = [];
+  let currentTab = 'latest';
+  let searchTerm = '';
+  let weekFilter = 'all';
+
+  function loadArchive() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      archive = raw ? JSON.parse(raw) : [];
+    } catch (e) { archive = []; }
+    if (archive.length === 0) {
+      archive = [seedWeek];
+      saveArchive();
+    }
+  }
+  function saveArchive() {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(archive)); } catch (e) {}
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function cardHtml(c) {
+    const meta = sourceMeta[c.src] || { label: c.src, cls: 'st' };
+    return `<div class="card">
+      <div class="card-head">
+        <span class="source ${meta.cls}">${meta.label}</span>
+        <span class="date">${c.date}</span>
+      </div>
+      <p class="headline">${escapeHtml(c.headline)}</p>
+      <ul class="bullets">${c.bullets.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>
+      <a class="link" href="${c.url}" target="_blank" rel="noopener">Read more \u2192</a>
+    </div>`;
+  }
+
+  function renderLatest() {
+    const body = document.getElementById('body');
+    if (archive.length === 0) {
+      body.innerHTML = '<div class="empty">No week loaded yet. Tap below to add one.</div>';
+      return;
+    }
+    const latest = archive[archive.length - 1];
+    let html = `<button class="fetchbtn" onclick="openModal()">+ Add new week</button>`;
+    html += `<div class="week-header">${latest.label}</div>`;
+    html += latest.cards.map(cardHtml).join('');
+    html += `<div class="hint">Tap Share \u2192 Add to Home Screen to use as an app.<br>Each Sunday, ask Claude for the new week\u2019s JSON and paste it in.</div>`;
+    body.innerHTML = html;
+  }
+
+  function renderArchive() {
+    const body = document.getElementById('body');
+    const weeks = archive.slice().reverse();
+    const weekOptions = ['<option value="all">All weeks</option>']
+      .concat(weeks.map(w => `<option value="${w.weekId}" ${weekFilter===w.weekId?'selected':''}>${w.label}</option>`)).join('');
+    let html = `<div class="controls">
+      <select id="week-sel">${weekOptions}</select>
+    </div>
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search keyword..." value="${escapeHtml(searchTerm)}" autocomplete="off">
+    </div>`;
+
+    const filteredWeeks = weekFilter === 'all' ? weeks : weeks.filter(w => w.weekId === weekFilter);
+    const term = searchTerm.trim().toLowerCase();
+    let any = false;
+    for (const w of filteredWeeks) {
+      const cards = w.cards.filter(c => {
+        if (!term) return true;
+        const hay = (c.headline + ' ' + c.bullets.join(' ') + ' ' + (sourceMeta[c.src]?.label||'')).toLowerCase();
+        return hay.includes(term);
+      });
+      if (cards.length === 0) continue;
+      any = true;
+      html += `<div class="week-header">${w.label}</div>`;
+      html += cards.map(cardHtml).join('');
+    }
+    if (!any) html += '<div class="empty">No matches. Try a different keyword.</div>';
+    body.innerHTML = html;
+
+    document.getElementById('week-sel').addEventListener('change', e => { weekFilter = e.target.value; renderArchive(); });
+    const si = document.getElementById('search');
+    si.addEventListener('input', e => {
+      const cursorPos = e.target.selectionStart;
+      searchTerm = e.target.value;
+      renderArchive();
+      const next = document.getElementById('search');
+      next.focus();
+      try { next.setSelectionRange(cursorPos, cursorPos); } catch(_){}
+    });
+  }
+
+  function render() {
+    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === currentTab));
+    if (currentTab === 'latest') renderLatest(); else renderArchive();
+  }
+
+  function openModal() { document.getElementById('modal-bg').classList.add('show'); }
+  function closeModal() { document.getElementById('modal-bg').classList.remove('show'); document.getElementById('paste-area').value = ''; }
+  function addWeek() {
+    const txt = document.getElementById('paste-area').value.trim();
+    if (!txt) { alert('Paste the JSON first.'); return; }
+    try {
+      const wk = JSON.parse(txt);
+      if (!wk.weekId || !wk.cards || !Array.isArray(wk.cards)) throw new Error('Missing weekId or cards array.');
+      const existing = archive.findIndex(w => w.weekId === wk.weekId);
+      if (existing >= 0) archive[existing] = wk; else archive.push(wk);
+      archive.sort((a,b) => (a.weekId < b.weekId ? -1 : 1));
+      saveArchive();
+      closeModal();
+      render();
+    } catch (e) {
+      alert('Invalid JSON: ' + e.message);
+    }
+  }
+
+  document.querySelectorAll('.tab').forEach(t => {
+    t.addEventListener('click', () => { currentTab = t.dataset.tab; render(); });
+  });
+  document.getElementById('modal-bg').addEventListener('click', e => {
+    if (e.target.id === 'modal-bg') closeModal();
+  });
+
+  loadArchive();
+  render();
+</script>
+</body>
+</html>
