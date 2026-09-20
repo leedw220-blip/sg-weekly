@@ -1,0 +1,263 @@
+{
+  "weekId": "2026-W38",
+  "label": "Week of Sep 14-20, 2026",
+  "fetchedAt": "2026-09-20T15:15:01.754975+08:00",
+  "cards": [
+    {
+      "src": "st",
+      "date": "2026-09-20",
+      "headline": "Residents can get traditional wet market experience at new 24-hour FairPrice supermart in Pasir Ris",
+      "bullets": [
+        "A new 24-hour FairPrice supermarket opened in Pasir Ris, aiming for a wet market feel.",
+        "It features the largest fresh fish and seafood counter among all FairPrice stores.",
+        "Shoppers can get fish scaled, sliced, and vacuum-packed, like at a traditional market.",
+        "The store also has the biggest dedicated pork counter in FairPrice outlets.",
+        "A Unity pharmacy within the supermarket offers pharmacist consultations."
+      ],
+      "url": "https://www.straitstimes.com/singapore/residents-can-get-traditional-wet-market-experience-at-new-24-hour-fairprice-supermart-in-pasir-ris"
+    },
+    {
+      "src": "st",
+      "date": "2026-09-20",
+      "headline": "More young Singaporeans seeking recovery treatment at longevity-related wellness centres and clinics",
+      "bullets": [
+        "At least eight wellness centres focusing on longevity have opened in Singapore in the last four years.",
+        "Young adults are increasingly visiting these centres for treatments like sauna and cold plunges.",
+        "They seek faster physical and mental recovery, and aim to improve their overall well-being.",
+        "Many young people are willing to spend money on these services for self-improvement.",
+        "Social media and a focus on self-care are driving this trend among younger Singaporeans."
+      ],
+      "url": "https://www.straitstimes.com/singapore/more-young-sporeans-seeking-recovery-treatments-at-longevity-related-wellness-centres-and-clinics"
+    },
+    {
+      "src": "st",
+      "date": "2026-09-20",
+      "headline": "22-year-old man arrested for voyeurism at NTU",
+      "bullets": [
+        "A 22-year-old man was arrested at NTU for voyeurism on Sept 19.",
+        "Police were called to Banyan Hall at Nanyang Crescent around 7:30pm.",
+        "The arrest happened near the North Hill gym.",
+        "Investigations into the incident are ongoing."
+      ],
+      "url": "https://www.straitstimes.com/singapore/22-year-old-man-arrested-for-voyeurism-at-ntu"
+    },
+    {
+      "src": "st",
+      "date": "2026-09-20",
+      "headline": "Octoburst! offers free Children’s Day programmes at Esplanade on Oct 2",
+      "bullets": [
+        "Esplanade offers nine free programmes for Children's Day on Oct 2.",
+        "Kids can enjoy storytelling, crafts, music, and games at the festival.",
+        "New shows feature stories written by primary school pupils.",
+        "Activities include a 'Sports Day!' game and a 'Feelings Farm' concert."
+      ],
+      "url": "https://www.straitstimes.com/singapore/parenting-education/octoburst-offers-free-programmes-at-esplanade-on-oct-2-childrens-day"
+    },
+    {
+      "src": "st",
+      "date": "2026-09-20",
+      "headline": "The simple joys of unhurried days and forest trails during a family holiday",
+      "bullets": [
+        "A family holiday in Melbourne's Dandenong Ranges offered a chance to slow down.",
+        "Instead of visiting popular spots, the family enjoyed relaxed mornings and walks.",
+        "They savoured home-cooked dinners and the forest scent after rain."
+      ],
+      "url": "https://www.straitstimes.com/singapore/parenting-education/the-simple-joys-of-unhurried-days-and-forest-trails-during-a-family-holiday"
+    },
+    {
+      "src": "cna",
+      "date": "2026-09-20",
+      "headline": "Air quality in central Singapore at unhealthy levels amid haze",
+      "bullets": [
+        "Central Singapore air quality hit 123 on the PSI scale, reaching unhealthy levels.",
+        "Eastern and western Singapore air quality also entered the unhealthy range on Sunday morning.",
+        "Haze levels in the east and west later improved to the moderate range.",
+        "Dry weather and hotspots were observed in parts of Indonesia and Malaysia.",
+        "Prevailing winds could bring more smoke haze to Singapore from the east or southeast."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/haze-singapore-unhealthy-psi-6396836"
+    },
+    {
+      "src": "cna",
+      "date": "2026-09-19",
+      "headline": "National Cancer Centre apologises after email addresses of over 460 recipients mistakenly exposed",
+      "bullets": [
+        "National Cancer Centre accidentally showed over 460 people's emails to each other.",
+        "The mistake happened when sending out invites for an event about hereditary breast and ovarian cancer.",
+        "No other personal details like NRIC numbers or phone numbers were exposed.",
+        "The centre has apologised for the error and is reviewing its processes."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/national-cancer-centre-singapore-email-lapse-pdpa-6396601"
+    },
+    {
+      "src": "cna",
+      "date": "2026-09-19",
+      "headline": "Asian Games open in Nagoya with celebration of solidarity and Japanese culture",
+      "bullets": [
+        "Japan hosts the Asian Games for the first time in 32 years.",
+        "The Games in Nagoya will run from September 19 to October 4.",
+        "Singapore is sending 304 athletes to compete in 27 sports.",
+        "Some teams faced accommodation issues and travel delays.",
+        "The opening ceremony had a muted atmosphere with empty seats."
+      ],
+      "url": "https://www.channelnewsasia.com/sport/asian-games-2026-opening-ceremony-team-singapore-6396551"
+    },
+    {
+      "src": "cna",
+      "date": "2026-09-19",
+      "headline": "Air quality back at unhealthy levels in central Singapore",
+      "bullets": [
+        "Central Singapore's air quality hit unhealthy levels on Saturday afternoon.",
+        "The 24-hour PSI reading in the central region reached 102 at 1pm.",
+        "Air quality has been in and out of the unhealthy range recently.",
+        "Smoke haze may affect Singapore due to winds from fires in nearby regions."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/air-quality-back-unhealthy-levels-in-central-singapore-6396246"
+    },
+    {
+      "src": "cna",
+      "date": "2026-09-19",
+      "headline": "Scammers are using AI to commit crimes at speed. How is Singapore police's new Cyber Command keeping up?",
+      "bullets": [
+        "Police have formed a new Cyber Command to fight scams and cybercrimes.",
+        "Scammers use AI to create fake websites and send convincing messages quickly.",
+        "AI helps criminals impersonate people and create believable scam conversations.",
+        "The police use AI to track down and shut down scam websites faster.",
+        "Cyber Command works with others to disrupt scammer groups."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/police-cyber-command-artificial-intelligence-scams-6394231"
+    },
+    {
+      "src": "bt",
+      "date": "2026-09-20",
+      "headline": "UBS, Gardens by the Bay team up to bring padel to the community",
+      "bullets": [
+        "Two free padel courts are now at Gardens by the Bay until October 11.",
+        "All booking slots for the courts were snapped up on the first day.",
+        "The courts are part of a UBS initiative to promote sports in the community.",
+        "Padel is a fast-growing sport combining elements of tennis and squash."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/ubs-gardens-bay-team-bring-padel-community"
+    },
+    {
+      "src": "bt",
+      "date": "2026-09-20",
+      "headline": "China’s US$33 billion experiment to prop up property market sputters on weak demand",
+      "bullets": [
+        "China's plan to fund property using Reits is struggling as too many are being offered.",
+        "Over $13 billion in new Reit deals are planned, adding to existing supply.",
+        "The Reit market has shrunk by 28% from its peak in 2022.",
+        "Many Reit investments have lost value, with some down over 50%."
+      ],
+      "url": "https://www.businesstimes.com.sg/property/chinas-us33-billion-experiment-prop-property-market-sputters-weak-demand"
+    },
+    {
+      "src": "bt",
+      "date": "2026-09-20",
+      "headline": "UK considers lowering mansion tax threshold: report",
+      "bullets": [
+        "UK might tax homes worth over £1.5 million, not just £2 million.",
+        "This could double the number of homes affected by the new property tax.",
+        "The government is looking for ways to fix the country's finances.",
+        "The tax is expected to raise £400 million yearly starting in 2028."
+      ],
+      "url": "https://www.businesstimes.com.sg/property/uk-considers-lowering-mansion-tax-threshold-report"
+    },
+    {
+      "src": "bt",
+      "date": "2026-09-19",
+      "headline": "How AI and satellites are helping rebuild sandy beaches",
+      "bullets": [
+        "AI and satellite tech help regrow beaches by predicting erosion and building structures.",
+        "A project in the Maldives extended a beach by 27m using these new methods.",
+        "New underwater structures also encourage coral growth and attract marine life.",
+        "This tech can help vulnerable coastal areas adapt to climate change faster."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/how-ai-and-satellites-are-helping-rebuild-sandy-beaches"
+    },
+    {
+      "src": "bt",
+      "date": "2026-09-19",
+      "headline": "Why Asia-Pacific is sport tourism’s next growth frontier",
+      "bullets": [
+        "Asia-Pacific's sports tourism market is set to grow over 17% yearly until 2034.",
+        "Strong travel within the region and younger travellers seeking experiences drive this growth.",
+        "Governments are investing in sports to create a steady stream of events, not just big ones.",
+        "Singapore's Grand Prix alone has brought in over S$2.2 billion since 2008."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/why-asia-pacific-sport-tourisms-next-growth-frontier"
+    },
+    {
+      "src": "mother",
+      "date": "2026-09-20",
+      "headline": "'Salad bar,’ youth extremism on the rise; S'poreans must be 'true friends' to defend loved ones from radicalisation",
+      "bullets": [
+        "Younger Singaporeans are getting radicalised faster, partly due to social media and online games.",
+        "Extremism is now a 'salad bar' type, where people pick ideas from different radical groups.",
+        "A 14-year-old was caught planning a school stabbing after being influenced by ISIS and Hitler ideas.",
+        "Law Minister Edwin Tong urged Singaporeans to be 'true friends' and help loved ones showing radical signs.",
+        "Rehabilitation needs community support, not just one-off help, to address behavioural changes."
+      ],
+      "url": "https://mothership.sg/2026/09/salad-bar-youth-extremism/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-09-20",
+      "headline": "Delivery rider, 64, dies after reportedly feeling unwell & falling into Tanah Merah condo swimming pool",
+      "bullets": [
+        "A 64-year-old Grab rider died after falling into a condo swimming pool.",
+        "He reportedly felt unwell before falling into the water.",
+        "Police do not suspect foul play in the incident.",
+        "Grab is providing assistance to the rider's family."
+      ],
+      "url": "https://mothership.sg/2026/09/grab-driver-swimming-pool/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-09-20",
+      "headline": "S'pore man accuses wife of cheating & chokes her until son steps in, gets 1 year & 10 weeks' jail",
+      "bullets": [
+        "A man choked his wife until she lost consciousness after accusing her of cheating.",
+        "Their son had to step in to stop his father from hurting his mother.",
+        "The man also threatened to kill his wife and sons multiple times.",
+        "He was jailed for one year and 10 weeks for several charges including hurting his wife."
+      ],
+      "url": "https://mothership.sg/2026/09/singapore-man-accuse-wife-cheating-choke-son-step-in/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-09-18",
+      "headline": "This Singapore-Owned Farm In JB Has Goat Feeding & Farm Tours from $3/Pax",
+      "bullets": [
+        "A Singapore-owned farm in Johor Bahru offers farm tours and goat feeding starting from S$3 per person.",
+        "Gentle Farms in Gelang Patah allows visitors to see and feed various animals like goats and chicks.",
+        "You can choose between a self-guided tour or a guided experience that includes hands-on activities.",
+        "The farm focuses on ethical farming and sustainability, educating visitors about food production."
+      ],
+      "url": "https://thesmartlocal.com/read/gentle-farms-jb/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-09-18",
+      "headline": "6 Best Gyms In SG With Membership Perks, From Discounts On Activewear & Spa Treatments To F&B Deals",
+      "bullets": [
+        "Get the most out of your gym membership.\nThe post 6 Best Gyms In SG With Membership Perks, From Discounts On Activewear &amp; Spa Treatments To F&amp;B Deals ap",
+        "See the article for full details.",
+        "(Auto-summarization failed; please review manually.)"
+      ],
+      "url": "https://thesmartlocal.com/read/gym-membership-perks/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-09-18",
+      "headline": "You Can Rent A “Business Class” Minibus From SG To JB With End-To-End Transport, Smart TV & Reclining Seats",
+      "bullets": [
+        "You can rent a minibus from Singapore to Johor Bahru with VIP seats and a TV.",
+        "The service offers doorstep pick-up and drop-off at your chosen location in Malaysia.",
+        "Prices start from $70 for an 8-seater and $100 for an 11-seater one-way trip.",
+        "This service is ideal for families or groups travelling to Johor Bahru together."
+      ],
+      "url": "https://thesmartlocal.com/read/dreamride-minibus-singapore-to-jb/"
+    }
+  ]
+}
