@@ -1,0 +1,268 @@
+{
+  "weekId": "2026-W42",
+  "label": "Week of Oct 12-18, 2026",
+  "fetchedAt": "2026-10-18T14:47:24.058491+08:00",
+  "cards": [
+    {
+      "src": "st",
+      "date": "2026-10-18",
+      "headline": "Haze in Singapore: Runners train in malls, families head for indoor playgrounds",
+      "bullets": [
+        "Singapore has had bad air quality for 13 days straight, the longest since 2015.",
+        "Runners are now training inside malls and doing indoor exercises like yoga.",
+        "Families are taking their kids to indoor playgrounds to escape the haze.",
+        "Several running events, including the Great Eastern Women's Run, have been cancelled due to poor air quality."
+      ],
+      "url": "https://www.straitstimes.com/singapore/haze-in-singapore-runners-train-in-malls-families-head-for-indoor-playgrounds"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-18",
+      "headline": "Hom Yoga to close permanently following Valley Point redevelopment, Orchard Central exit",
+      "bullets": [
+        "Hom Yoga will close its last studio at Valley Point on March 21, 2027.",
+        "The River Valley mall is being redeveloped, leading to the studio's closure.",
+        "Hom Yoga had already closed its Orchard Central branch in November.",
+        "Rising costs and difficulty finding a new space contributed to the decision.",
+        "Customers can use existing packages until the final closing date."
+      ],
+      "url": "https://www.straitstimes.com/singapore/hom-yoga-to-close-permanently-following-valley-point-redevelopment-orchard-central-exit"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-18",
+      "headline": "‘Failure points you to the solution’: Students win HTX award for pushing past setbacks in research",
+      "bullets": [
+        "Students won an award for pushing through research problems and not giving up.",
+        "One student developed an AI to predict cancer treatment success using patient data.",
+        "Another student used chicken bones to clean dye pollution from water.",
+        "The award recognizes students who learn from setbacks in science projects.",
+        "Winners get $4,000 and a chance to intern with HTX."
+      ],
+      "url": "https://www.straitstimes.com/singapore/parenting-education/failure-points-you-to-the-solution-students-win-htx-award-for-pushing-past-setbacks-in-research"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-18",
+      "headline": "Home buyers using more cash and CPF for down payment even as mortgage loans rise",
+      "bullets": [
+        "Nearly 8 in 10 buyers of new private homes took loans of $1 million or more.",
+        "Home prices rose 49% for new private homes, but loans only grew 35%.",
+        "Buyers are using more cash or CPF for down payments instead of borrowing more.",
+        "Fewer buyers are borrowing the maximum loan amount allowed for their property purchase."
+      ],
+      "url": "https://www.straitstimes.com/singapore/housing/homebuyers-using-more-cash-and-cpf-for-downpayment-even-as-mortgage-loans-rise"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-18",
+      "headline": "F&B businesses struggle as haze conditions worsen",
+      "bullets": [
+        "Tekka Centre had half empty seats on October 16 due to bad air.",
+        "Some food stall owners are considering closing their businesses because of the haze.",
+        "Footfall at Tekka Centre dropped by about 30% since the haze started.",
+        "Hawkers say business can fall by a third on bad haze days.",
+        "Some customers are avoiding outdoor eateries due to the poor air quality."
+      ],
+      "url": "https://www.straitstimes.com/singapore/fb-businesses-struggle-as-haze-conditions-worsen"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-18",
+      "headline": "Singapore haze: Air quality remains very unhealthy in west, unhealthy in other regions",
+      "bullets": [
+        "Air quality in western Singapore hit a very unhealthy 230 PSI on Sunday, the highest this year.",
+        "Haze levels improved slightly in the afternoon but remained unhealthy in other parts of the island.",
+        "Smoke haze from fires in Indonesia is expected to continue drifting towards Singapore.",
+        "Several outdoor events were cancelled or postponed due to the poor air quality.",
+        "Health advisories suggest using 1-hour PM2.5 readings to decide on wearing masks."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/haze-oct-18-psi-west-remains-very-unhealthy-6468376"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-18",
+      "headline": "BigBang XX: Cosmos in Singapore – a triumphant return for the K-pop legends",
+      "bullets": [
+        "K-pop legends BigBang returned to Singapore for their first concert in 10 years.",
+        "Thousands of fans filled the National Stadium for the XX: Cosmos show.",
+        "The trio performed many of their hit songs and solo tracks.",
+        "Members G-Dragon, Daesung, and Taeyang showcased their individual talents.",
+        "The energetic crowd sang along throughout the three-hour performance."
+      ],
+      "url": "https://www.channelnewsasia.com/entertainment/bigbang-singapore-2026-concert-review-6468981"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-18",
+      "headline": "Rival ports 'fast catching up': SM Lee warns against complacency, says port workers must not face shift alone",
+      "bullets": [
+        "Rival ports are catching up, and some might even be ahead of Singapore's port.",
+        "SM Lee warned against becoming complacent and losing business to competitors.",
+        "He stressed the need for technological upgrades and worker training.",
+        "Strong cooperation between management, unions, and workers is crucial for success.",
+        "Past challenges required difficult choices, painful adjustments, and retraining of workers."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/singapore-port-workers-union-technology-lee-hsien-loong-6468356"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-18",
+      "headline": "These marathon runners will give up their personal best to save a life",
+      "bullets": [
+        "238 trained runners will act as first responders at the Singapore International Marathon.",
+        "These 'medic runners' will help participants needing medical aid, like CPR.",
+        "They must put helping others above their own race time.",
+        "The new category was inspired by similar races overseas.",
+        "Medic runners were selected from over 1,300 applicants."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/medic-runner-singapore-international-marathon-6388846"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-18",
+      "headline": "From weekend markets to a matcha network: How Kevin Chee built Matchaya",
+      "bullets": [
+        "Matchaya founder Kevin Chee built his business by selling bottled matcha lattes at weekend markets.",
+        "He quit his bank job to open the first Matchaya outlet in 2014.",
+        "Matchaya now supplies about half the matcha used by cafes and restaurants in Singapore.",
+        "The business also distributes matcha from Japan and China to commercial clients.",
+        "Matchaya's new flagship store offers a more hands-on experience and Japanese-inspired food."
+      ],
+      "url": "https://www.channelnewsasia.com/people/matchaya-kevin-chee-singapore-matcha-6457691"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-18",
+      "headline": "Australian home auctions decline as rate hikes dampen activity",
+      "bullets": [
+        "Just 1,423 homes were auctioned in Australian capital cities last week, down 18.6% from the week before.",
+        "This is about 46% fewer homes auctioned than at the same time last year.",
+        "The rate of homes selling at auction this spring is lower than the average for winter.",
+        "Higher interest rates are making fewer people want to buy homes in Australia."
+      ],
+      "url": "https://www.businesstimes.com.sg/property/australian-home-auctions-decline-rate-hikes-dampen-activity"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-17",
+      "headline": "2026 BMW i7 review: Buyers of BMW’s flagship have one surprising trait",
+      "bullets": [
+        "The new electric BMW i7 50 can travel up to 728km on a full charge.",
+        "The petrol version, 735, starts at S$684,888 including COE.",
+        "The car has a new display strip along the windscreen for information.",
+        "Most buyers of this luxury car still prefer to drive themselves.",
+        "It offers a smooth ride but can handle fast corners well."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/2026-bmw-i7-review-buyers-bmws-flagship-have-one-surprising-trait"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-17",
+      "headline": "Ferrari’s S$2.1 million EV trips the light fantastic",
+      "bullets": [
+        "Ferrari's first electric car, the S$2.1 million Luce, is now in Singapore.",
+        "It's a five-seater with four doors and a large boot, unlike previous Ferraris.",
+        "The car accelerates to 100 kmh in 2.5 seconds and has a range of over 530 km.",
+        "Ferrari focused on making the electric car fun to drive and sound exciting."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/ferraris-s2-1-million-ev-trips-light-fantastic"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-16",
+      "headline": "Good Class Bungalow market activity picks up pace on ‘realistic’ pricing",
+      "bullets": [
+        "Good Class Bungalow sales are picking up as prices become more realistic.",
+        "Buyers are looking for good deals on luxury homes.",
+        "The market was slower earlier in the year due to global uncertainty.",
+        "Buyers are more selective and want better value for their money."
+      ],
+      "url": "https://www.businesstimes.com.sg/opinion-features/good-class-bungalow-market-activity-picks-pace-realistic-pricing"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-16",
+      "headline": "Celine Dion, Harry Styles concerts get an AI sound upgrade",
+      "bullets": [
+        "A French company uses AI to make concert sound clearer by filtering out noise.",
+        "This new tech helps singers' voices stand out from instruments and crowd noise.",
+        "It has been used for big names like Celine Dion and Harry Styles.",
+        "The system can reduce unwanted sound by up to 40 decibels.",
+        "The company expects a big jump in sales next year."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/celine-dion-harry-styles-concerts-get-ai-sound-upgrade"
+    },
+    {
+      "src": "mother",
+      "date": "2026-10-17",
+      "headline": "Elderly Holland Village cobbler shows up for work despite haze, S'pore woman calls for support",
+      "bullets": [
+        "An elderly cobbler continues working in Holland Village despite the haze.",
+        "He has been repairing shoes for decades and needs customers.",
+        "A woman shared a video asking people to support his business.",
+        "He can be found near Wu Chun Po Bakery daily from 11am to 8pm."
+      ],
+      "url": "https://mothership.sg/2026/10/holland-village-cobbler/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-10-17",
+      "headline": "Filipino helper, 35, worked in law firm for 8 years before coming to S'pore, hopes to one day study law",
+      "bullets": [
+        "A Filipino domestic helper worked in a law firm for eight years in the Philippines.",
+        "She came to Singapore two years ago after her initial plans to work in Europe did not work out.",
+        "She is currently pursuing two engineering diplomas and hopes to one day study law.",
+        "She works on her studies during her days off and rest time."
+      ],
+      "url": "https://mothership.sg/2026/10/filipino-helper-singapore-upskilling-civil-engineering/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-10-17",
+      "headline": "Woman, 77, dies in PIE hit-and-run; minibus driver, 66, arrested",
+      "bullets": [
+        "A 77-year-old woman died after being hit by a minibus on the PIE.",
+        "The minibus driver, 66, left the scene before police arrived.",
+        "Police later arrested the driver for causing death by careless driving."
+      ],
+      "url": "https://mothership.sg/2026/10/minibus-driver-hit-and-run/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-16",
+      "headline": "This Warehouse Sale At Khatib Has Viral Squishies From $2 & Pay-By-Weight Crockery For $0.88/100g",
+      "bullets": [
+        "Squishies start from $2 each at a warehouse sale in Khatib.",
+        "You can buy crockery by weight for $0.88 per 100g.",
+        "Home essentials are on sale from $1.",
+        "The sale runs until October 18th at HomeTeamNS Khatib."
+      ],
+      "url": "https://thesmartlocal.com/read/houze-table-matters-warehouse-sale/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-16",
+      "headline": "A New Cinnamoroll-Themed Attraction Is Coming To Tokyo This November For A Limited Time Only",
+      "bullets": [
+        "A Cinnamoroll-themed pop-up park opens in Tokyo from November 20, 2026, to January 17, 2027.",
+        "The attraction features a 12m long Cinnamoroll slide and interactive games.",
+        "Visitors can enjoy themed zones for Cinnamoroll's friends like Cappuccino and Chiffon.",
+        "Special experiences include a virtual tea party and exclusive merchandise sales.",
+        "Tickets cost around S$13 to S$20, with a separate charge for the virtual tea party."
+      ],
+      "url": "https://thesmartlocal.com/read/fuwafuwonder-cinnamoroll-park-tokyo/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-16",
+      "headline": "There’s A Free Interactive Exhibition At New Bahru That Lets You Explore The Future Of Money In SG",
+      "bullets": [
+        "Collect a free blind bag charm after visiting the exhibition!\nThe post There’s A Free Interactive Exhibition At New Bahru That Lets You Explore The Future Of Mo",
+        "See the article for full details.",
+        "(Auto-summarization failed; please review manually.)"
+      ],
+      "url": "https://thesmartlocal.com/read/the-secret-vault-gic-new-bahru/"
+    }
+  ]
+}
