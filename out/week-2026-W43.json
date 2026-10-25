@@ -1,0 +1,271 @@
+{
+  "weekId": "2026-W43",
+  "label": "Week of Oct 19-25, 2026",
+  "fetchedAt": "2026-10-25T15:06:03.036131+08:00",
+  "cards": [
+    {
+      "src": "st",
+      "date": "2026-10-25",
+      "headline": "PAP refreshing ideas, expanding networks to renew itself: PM Wong",
+      "bullets": [
+        "PM Wong says the PAP will renew itself by refreshing ideas and expanding its networks.",
+        "The party aims to connect with more Singaporeans from different backgrounds and professions.",
+        "New ways for people to engage with the party include the 'Friends of the PAP' network.",
+        "PM Wong stressed that party renewal means making room for younger members while valuing veterans' experience."
+      ],
+      "url": "https://www.straitstimes.com/singapore/politics/pap-refreshing-ideas-expanding-networks-to-renew-itself-pm-wong"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-25",
+      "headline": "Gas Supply may pursue remedies if contract breached following Indonesia’s export cuts: Tan See Leng",
+      "bullets": [
+        "Gas Supply may seek legal options if Indonesia breaches contract over gas cuts.",
+        "Indonesia is cutting gas exports to Singapore by less than 2% of daily demand.",
+        "Singapore has enough gas from other sources, including liquefied natural gas.",
+        "Electricity prices unlikely to be affected much in the short term.",
+        "Singapore is building a second LNG terminal and diversifying energy sources."
+      ],
+      "url": "https://www.straitstimes.com/singapore/politics/gas-supply-may-pursue-remedies-if-contract-breached-following-indonesias-export-cuts-tan-see-leng"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-25",
+      "headline": "New blood test could help flag risk of condition that leads to liver failure, cancer",
+      "bullets": [
+        "A new Singapore-made blood test can spot early signs of liver cirrhosis risk.",
+        "The test, called CIRRHOClear, checks for specific signals in your blood.",
+        "It helps doctors find liver damage before symptoms show up.",
+        "This could help prevent liver failure and common liver cancer.",
+        "The test is for people aged 40 and above."
+      ],
+      "url": "https://www.straitstimes.com/singapore/health/new-blood-test-could-help-prevent-condition-that-leads-to-liver-failure-cancer"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-25",
+      "headline": "Institutions need to evolve to changing needs but core values, purpose should endure: Zaqy Mohamad",
+      "bullets": [
+        "Institutions must adapt to new needs while keeping their core values, said Zaqy Mohamad.",
+        "He spoke at the opening of Jamae Chulia Heritage, a new development on endowment land.",
+        "The project turns old Muslim endowment property into a serviced residence and retail space.",
+        "This renewal keeps the original purpose of benefiting future generations, he noted.",
+        "Zaqy also highlighted Singapore's long history of diversity and openness."
+      ],
+      "url": "https://www.straitstimes.com/singapore/community/institutions-need-to-evolve-to-changing-needs-but-core-values-purpose-should-endure-zaqy-mohamad"
+    },
+    {
+      "src": "st",
+      "date": "2026-10-25",
+      "headline": "WP’s position seems to shift with ‘political winds’, PAP must take wider view: PM Wong",
+      "bullets": [
+        "PM Wong says Workers' Party changes its stand on issues like housing and foreign workers.",
+        "He pointed out the WP's different views on building new flats over the years.",
+        "Wong also noted the WP's shifting stance on foreign manpower policies.",
+        "He stated the PAP must consider long-term interests, unlike opposition parties.",
+        "PM Wong said it's easier to oppose when not in charge."
+      ],
+      "url": "https://www.straitstimes.com/singapore/politics/wps-position-seems-to-shift-with-the-political-winds-pap-must-take-the-wider-view-pm-wong"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-25",
+      "headline": "‘Keep calm and carry on’: Indonesia gas cut unlikely to hit Singapore electricity prices, says Tan See Leng",
+      "bullets": [
+        "Indonesia cutting gas exports to Singapore is unlikely to affect electricity prices here.",
+        "The cut amounts to less than 2% of Singapore's daily gas needs, with enough supply available.",
+        "Global gas prices are a bigger factor for Singapore's energy costs, not this specific cut.",
+        "Singapore has backup plans and diversified energy sources to ensure supply reliability.",
+        "Authorities are leaving contract remedies to Singapore's gas importer, Gas Supply Private Limited."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/electricity-prices-indonesia-gas-supply-cut-tan-see-leng-6490121"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-25",
+      "headline": "PAP votes in top decision-making body, Jeffrey Siow and Jasmin Lau nominated but not voted in",
+      "bullets": [
+        "PAP elected its top decision-making body, the CEC, at its conference.",
+        "Lawrence Wong led the party's first CEC election since becoming PM.",
+        "First-term MPs Jeffrey Siow and Jasmin Lau were nominated but not elected.",
+        "Lawrence Wong stressed the need to earn continued support from Singaporeans."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/pap-leadership-election-cec-6489086"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-25",
+      "headline": "Governing means confronting politically difficult issues, not just balancing interests: PM Wong",
+      "bullets": [
+        "PM Wong says governing means tackling tough issues, not just balancing interests.",
+        "He warned against populism and offering easy answers to hard problems.",
+        "The PAP government must make unpopular decisions for Singapore's future.",
+        "Singapore is exploring nuclear energy and diversifying gas imports for energy security."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/governing-politically-difficult-issues-pm-wong-pap-convention-6490016"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-25",
+      "headline": "Singapore expects all parties to honour commercial gas contracts, says PM Wong after Indonesia cut exports",
+      "bullets": [
+        "Indonesia cut gas exports to Singapore, affecting less than 2% of daily demand.",
+        "PM Wong expects all parties to honour gas supply contracts.",
+        "Singapore is boosting LNG imports to diversify energy sources.",
+        "The country is studying nuclear energy as a cleaner power option.",
+        "Singapore is also strengthening international partnerships."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/indonesia-gas-exports-singapore-gas-contracts-pm-wong-pap-convention-6489956"
+    },
+    {
+      "src": "cna",
+      "date": "2026-10-25",
+      "headline": "Singapore haze: Air quality remains unhealthy in three regions; PM2.5 readings normal across country",
+      "bullets": [
+        "Air quality was unhealthy in three areas on Sunday.",
+        "South and north air quality dropped out of unhealthy levels.",
+        "Hourly PM2.5 readings stayed normal across the country.",
+        "Winds and rain might help clear the haze soon."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-air-quality-remains-unhealthy-in-three-regions-pm25-readings-normal-across-country-6489876"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-25",
+      "headline": "Why Netflix is struggling to find its audience",
+      "bullets": [
+        "Netflix's sales growth slowed to its weakest in three years.",
+        "The company is cutting about 1,000 jobs, or 6% of its staff.",
+        "Rivals like YouTube and Apple TV are gaining more viewers.",
+        "Netflix hired a new executive to help find more hit shows."
+      ],
+      "url": "https://www.businesstimes.com.sg/companies-markets/why-netflix-struggling-find-its-audience"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-24",
+      "headline": "Hyundai Elexio review: The Korean EV built for Chinese tastes",
+      "bullets": [
+        "The Hyundai Elexio uses BYD battery cells, known for safety in Singapore.",
+        "This electric car, made in China for Chinese tastes, has a huge 27-inch touchscreen.",
+        "It offers a plush interior with lots of space for passengers and a large boot.",
+        "The car accelerates slowly, taking 10.7 seconds to reach 100 kmh.",
+        "Priced at S$191,999 with COE, it offers a 405 km range and sharp handling."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/hyundai-elexio-review-korean-ev-built-chinese-tastes"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-23",
+      "headline": "Net demand for Singapore office space doubles in Q3 as central region rents rise 0.8%",
+      "bullets": [
+        "Office space demand in Singapore doubled in Q3 compared to the previous quarter.",
+        "Rents for offices in the central area went up by 0.8% in the last three months.",
+        "The overall empty office space rate dropped to 10% as less new space became available.",
+        "Tech and finance companies were major drivers of the increased office space demand."
+      ],
+      "url": "https://www.businesstimes.com.sg/property/net-demand-singapore-office-space-doubles-q3-central-region-rents-rise-0-8"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-23",
+      "headline": "Home sales set to recover in Q4 with prices seen rising further on new launch momentum",
+      "bullets": [
+        "Private home prices rose 1.4% in the last quarter, the fastest in seven quarters.",
+        "However, new home sales dropped by nearly half compared to the previous quarter.",
+        "More new homes are launching in the next quarter, which should boost sales.",
+        "Analysts expect home prices to end the year up 3% to 5%."
+      ],
+      "url": "https://www.businesstimes.com.sg/property/home-sales-set-recover-q4-prices-seen-rising-further-new-launch-momentum"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-23",
+      "headline": "KKR founders among investors buying 42% of Peter Lim’s Valencia; club valued at US$1.4 billion",
+      "bullets": [
+        "US investors bought 42% of Valencia football club from Peter Lim's company.",
+        "The deal values the Spanish club at US$1.4 billion.",
+        "New investors are injecting 100 million euros to help the club.",
+        "Peter Lim's company will still own most of Valencia.",
+        "The club is currently struggling in Spain's top football league."
+      ],
+      "url": "https://www.businesstimes.com.sg/companies-markets/kkr-founders-among-investors-buying-42-peter-lims-valencia-club-valued-us1-4-billion"
+    },
+    {
+      "src": "mother",
+      "date": "2026-10-25",
+      "headline": "Abby Choi murder trial: Cut mark on spine consistent with electric saw blade found in flat where body parts were discovered",
+      "bullets": [
+        "A cut on Abby Choi's spine matched an electric saw found at the crime scene.",
+        "Parts of Choi's body, including legs, were found in a refrigerator.",
+        "Her head was discovered in pots of soup and minced meat.",
+        "Choi's ex-husband's family bought a meat mincer before her death.",
+        "The ex-father-in-law admitted buying kitchen tools, including a meat mincer."
+      ],
+      "url": "https://mothership.sg/2026/10/abby-choi-murder-trial-spine-cut-mark/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-10-25",
+      "headline": "S'pore man, 41, & serial voyeur, jailed for 7th time since 2018 after filming upskirt videos at Yishun",
+      "bullets": [
+        "A 41-year-old man was jailed 28 weeks for filming upskirt videos, his seventh jail term since 2018.",
+        "He filmed women at Northpoint City and elsewhere, sometimes twice a week.",
+        "The judge gave him a longer sentence than prosecutors asked for.",
+        "He was warned he could face caning if he offends again."
+      ],
+      "url": "https://mothership.sg/2026/10/serial-voyeur-gary-huang-kunjie-upskirt-video/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-10-24",
+      "headline": "US woman on 10-hour flight refuses to switch seats with passenger, who then cries for 3 hours as she can't lay her head on husband's shoulder",
+      "bullets": [
+        "A woman refused to give up her aisle seat on a 10-hour flight, causing another passenger to cry.",
+        "The other passenger wanted to sit next to her husband but he was in a middle seat two rows ahead.",
+        "The crying passenger said she missed her husband and had nowhere to rest her head.",
+        "The influencer who filmed the incident was flying home after her father passed away."
+      ],
+      "url": "https://mothership.sg/2026/10/us-woman-refuses-to-switch-seats/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-23",
+      "headline": "Tampines 1’s New Stores & Returning Faves, Plus Special Deals at Level 3",
+      "bullets": [
+        "Tampines 1 mall's Level 3 has new stores and returning favourites.",
+        "New shops include Box Hunt for blind boxes and KPOP HOUSE for K-Pop merchandise.",
+        "Dessert shop Geláre and claw machine arcade FUNCLAW & ORODOKI also opened.",
+        "Awfully Chocolate has a new beverage bar concept at the mall.",
+        "Promotions include 1-for-1 deals at Geláre and 8% off at KPOP HOUSE."
+      ],
+      "url": "https://thesmartlocal.com/read/tampines-1-new-stores/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-23",
+      "headline": "13 Free Loyalty Memberships In Singapore With Freebies, Birthday Treats & Plenty Of Perks",
+      "bullets": [
+        "IKEA Family membership is free for residents aged 18 and above.",
+        "Mr. Coconut offers free lifetime membership with a free drink upon signing up.",
+        "Yo-Chi's free Chi Club membership gives a $10 birthday voucher with no minimum spend.",
+        "Swensen's Cool Rewards offers a free lifetime membership with a birthday sundae.",
+        "Join loyalty programmes for freebies, birthday treats, and discounts."
+      ],
+      "url": "https://thesmartlocal.com/read/free-loyalty-memberships-singapore/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-23",
+      "headline": "11 Upcoming Card Shows & Conventions In Singapore To Feed Your TCG Obsession & Hunt For Rare Cards",
+      "bullets": [
+        "Several card shows and conventions are happening in Singapore soon for collectors.",
+        "Asia Cards & Collectible Expo runs for six weekends at Suntec City.",
+        "SG Collectibles & Card Show has three themed editions in October, November, and December.",
+        "NEXUS TCG Tradeshow offers over 50 vendors at The Centrepoint and Suntec.",
+        "Award X Halloween Trade Night features prizes and lucky draws for $10 tickets."
+      ],
+      "url": "https://thesmartlocal.com/read/card-shows-singapore/"
+    }
+  ]
+}
