@@ -1,0 +1,269 @@
+{
+  "weekId": "2026-W44",
+  "label": "Week of Oct 26-Nov 1, 2026",
+  "fetchedAt": "2026-11-01T16:23:54.677929+08:00",
+  "cards": [
+    {
+      "src": "st",
+      "date": "2026-11-01",
+      "headline": "Oil patches spotted in S’pore’s southern waters off Pulau Sebarok, Pulau Semakau and Selat Pauh: MPA",
+      "bullets": [
+        "Oil patches were seen in Singapore's southern waters near Pulau Sebarok and Pulau Semakau.",
+        "The Maritime and Port Authority (MPA) is investigating the source of the oil.",
+        "MPA has activated oil spill response teams and alerted nearby terminals.",
+        "No impact on ship traffic or port operations has been reported.",
+        "Authorities are taking steps to protect shorelines from the oil."
+      ],
+      "url": "https://www.straitstimes.com/singapore/oil-patches-spotted-off-pulau-sebarok-pulau-semakau-and-selat-pauh-mpa"
+    },
+    {
+      "src": "st",
+      "date": "2026-11-01",
+      "headline": "Heavy traffic expected at Woodlands, Tuas checkpoints during Deepavali long weekend",
+      "bullets": [
+        "Expect heavy traffic at Woodlands and Tuas checkpoints from Nov 6 to Nov 9.",
+        "This is due to the Deepavali long weekend and increased security checks.",
+        "Travellers are advised to plan journeys and travel during off-peak hours.",
+        "Check traffic conditions before you go and use the MyICA app for faster clearance."
+      ],
+      "url": "https://www.straitstimes.com/singapore/heavy-traffic-expected-at-woodlands-tuas-checkpoints-during-deepavali-long-weekend"
+    },
+    {
+      "src": "st",
+      "date": "2026-11-01",
+      "headline": "Educate first for more constructive outcomes, says Foo Cexiang of his push for citizen participation",
+      "bullets": [
+        "Minister Foo Cexiang believes educating citizens first helps them join policy talks constructively.",
+        "He wants to create platforms for passionate Singaporeans to contribute and thrive.",
+        "Foo has led pilot projects like a recycling trial and participatory budgeting in his ward.",
+        "He sees citizen engagement as key to shaping communities and neighbourhoods.",
+        "His new roles involve significant communication and travel, which he explains to his young daughters."
+      ],
+      "url": "https://www.straitstimes.com/singapore/politics/educate-first-for-more-constructive-outcomes-says-foo-cexiang-of-his-push-for-citizen-participation"
+    },
+    {
+      "src": "st",
+      "date": "2026-11-01",
+      "headline": "New MOS Foo Cexiang wants to help workers switch sectors, find jobs more quickly for those who reskill",
+      "bullets": [
+        "Minister Foo Cexiang wants to help retrenched workers switch jobs and find new roles.",
+        "He aims to improve support for people who reskill but still struggle to find suitable jobs.",
+        "The government will study why some job seekers get stuck and design solutions.",
+        "Companies and society must support workers changing careers, especially older ones.",
+        "MOM is also looking into 'fractional work' for experienced seniors."
+      ],
+      "url": "https://www.straitstimes.com/singapore/politics/new-mos-foo-cexiang-wants-to-help-workers-switch-sectors-find-jobs-quicker-for-those-who-reskill"
+    },
+    {
+      "src": "st",
+      "date": "2026-11-01",
+      "headline": "At least 20 S’pore schools hire external manpower to help with student discipline and management",
+      "bullets": [
+        "At least 20 schools are hiring outsiders to help manage student discipline and behaviour.",
+        "These hired officers will handle tasks like conflict resolution and talking to parents.",
+        "The move aims to reduce teachers' workload and allow them to focus on teaching.",
+        "Some schools prefer officers with experience in police or military service.",
+        "New online tools will also be introduced by 2027 for students to report issues."
+      ],
+      "url": "https://www.straitstimes.com/singapore/parenting-education/at-least-20-spore-schools-hire-external-manpower-to-help-with-student-discipline-and-management"
+    },
+    {
+      "src": "cna",
+      "date": "2026-11-01",
+      "headline": "Oil patches spotted in Singapore's southern waters; source under investigation: MPA",
+      "bullets": [
+        "Oil patches were found in Singapore's southern waters near Pulau Sebarok and Pulau Semakau.",
+        "Authorities are investigating the source of the oil patches spotted in the sea.",
+        "No oil was seen near popular areas like Sentosa or the East Coast.",
+        "Port operations and ship traffic have not been affected by the oil patches.",
+        "Clean-up efforts are underway to remove the oil from the water."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/oil-patches-singapore-southern-waters-mpa-6510686"
+    },
+    {
+      "src": "cna",
+      "date": "2026-11-01",
+      "headline": "Heavy traffic expected at Singapore-Malaysia land checkpoints during Deepavali long weekend",
+      "bullets": [
+        "Expect heavy traffic at Woodlands and Tuas checkpoints from Nov 6 to Nov 9.",
+        "ICA advises planning trips and travelling during off-peak hours.",
+        "Security checks are stepped up due to global security concerns.",
+        "Use the MyICA app with QR codes for faster immigration clearance.",
+        "More than 6.1 million travellers used checkpoints during September holidays."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/heavy-traffic-woodlands-tuas-checkpoints-6510666"
+    },
+    {
+      "src": "cna",
+      "date": "2026-11-01",
+      "headline": "Over 1,300 BTO flats with shorter waiting time of under 3 years to be offered in Sembawang in November",
+      "bullets": [
+        "November BTO sales will offer 1,310 flats in Sembawang with waiting times under three years.",
+        "Other BTO projects in Bayshore and Tengah will also have waiting times of just over three years.",
+        "These shorter waiting time flats aim to help more Singaporeans get their new homes sooner.",
+        "The Sembawang project includes shops, a preschool, and is near a new park and community hub."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/november-2026-bto-shorter-waiting-time-flats-sembawang-hdb-6506121"
+    },
+    {
+      "src": "cna",
+      "date": "2026-11-01",
+      "headline": "Police to use single caller ID 6000 0999 from Nov 2 to combat impersonation scams",
+      "bullets": [
+        "Police calls will now use a single number, 6000 0999, from November 2.",
+        "This new number will help people spot real police calls and avoid scams.",
+        "Calls from this number will be followed by a text from 'gov.sg'.",
+        "Scammers impersonating officials cost victims over S$142 million this year.",
+        "Police were the most impersonated agency, with S$53.3 million lost."
+      ],
+      "url": "https://www.channelnewsasia.com/singapore/police-caller-id-combat-scams-6495646"
+    },
+    {
+      "src": "cna",
+      "date": "2026-11-01",
+      "headline": "AI can make art in seconds – how are artists in Singapore fighting to keep their craft alive?",
+      "bullets": [
+        "Some artists say AI art tools steal their work without permission.",
+        "Artists are worried AI might reduce the value of human creativity.",
+        "Singaporean artists are finding ways to protect their work from AI.",
+        "Some designers use AI for ideas but avoid using it for final products."
+      ],
+      "url": "https://www.channelnewsasia.com/living/singapore-artists-protect-work-generative-ai-6494701"
+    },
+    {
+      "src": "bt",
+      "date": "2026-11-01",
+      "headline": "One in five prime-region private homes resold at a loss in Q3",
+      "bullets": [
+        "Share of loss-making deals edges up to 4.6%, highest in four years, ECs post biggest percentage gains",
+        "See the article for full details.",
+        "(Auto-summarization failed; please review manually.)"
+      ],
+      "url": "https://www.businesstimes.com.sg/property/one-five-prime-region-private-homes-resold-loss-q3"
+    },
+    {
+      "src": "bt",
+      "date": "2026-11-01",
+      "headline": "After Louvre heist and string of thefts, Europe’s smaller museums are on guard",
+      "bullets": [
+        "Artworks by Cézanne, Renoir, and Matisse worth millions were stolen from an Italian museum.",
+        "Thieves are increasingly targeting smaller European museums after a major Louvre heist.",
+        "Many smaller museums lack basic security like cameras or emergency plans.",
+        "France is giving 30 million euros to help smaller museums improve security."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/after-louvre-heist-and-string-thefts-europes-smaller-museums-are-guard"
+    },
+    {
+      "src": "bt",
+      "date": "2026-11-01",
+      "headline": "Asset light or asset heavy? It need not be ‘either or’, says GuocoLand CEO",
+      "bullets": [
+        "GuocoLand CEO says property firms don't have to be strictly asset-light or asset-heavy.",
+        "The company is open to selling assets if there are good chances to reinvest the money.",
+        "GuocoLand does not keep properties just for the sake of owning them."
+      ],
+      "url": "https://www.businesstimes.com.sg/companies-markets/asset-light-or-asset-heavy-it-need-not-be-either-or-says-guocoland-ceo"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-31",
+      "headline": "2027 BMW 3 Series review: Petrol still beats electric, but it’s close",
+      "bullets": [
+        "The new petrol BMW M350 is faster than its electric i3 50 version.",
+        "The petrol M350 is lighter by about 345kg, making it more agile.",
+        "The electric i3 50 can travel up to 912km on a single charge.",
+        "Both cars share the same modern interior design and large touchscreen.",
+        "Some electric car issues like the glass roof without a shade remain."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/2027-bmw-3-series-review-petrol-still-beats-electric-its-close"
+    },
+    {
+      "src": "bt",
+      "date": "2026-10-31",
+      "headline": "2026 BMW i3 review: The EV that could shake a petrolhead to the core",
+      "bullets": [
+        "The new electric BMW i3 will debut in January 2027 with 469 horsepower.",
+        "It can charge 423 km of range in just 10 minutes with a 400 kW charger.",
+        "The i3 boasts a 912 km range and accelerates from 0-100 kmh in 4.7 seconds.",
+        "Despite its performance, the electric i3 may lack the emotional thrill of a petrol engine.",
+        "The car features a panoramic display and a large touchscreen, but has limited rear passenger space."
+      ],
+      "url": "https://www.businesstimes.com.sg/lifestyle/2026-bmw-i3-review-ev-could-shake-petrolhead-core"
+    },
+    {
+      "src": "mother",
+      "date": "2026-11-01",
+      "headline": "Fundraiser set up for Tampines Ave 12 fatal crash victims' 6-year-old son",
+      "bullets": [
+        "A fundraiser has raised over S$8,600 for the 6-year-old son of a couple who died in a Tampines crash.",
+        "The couple, both 24, died on Oct. 29 after a car hit their motorcycle.",
+        "A 30-year-old man faces charges for dangerous driving causing death.",
+        "The boy is now staying with his late mother's family."
+      ],
+      "url": "https://mothership.sg/2026/10/fundraiser-tampines-fatal-crash-victims-son/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-11-01",
+      "headline": "Chris Hemsworth dines at Nong Geng Ji at Jewel Changi Airport, manager requests photo",
+      "bullets": [
+        "Hollywood star Chris Hemsworth ate at Nong Geng Ji restaurant in Jewel Changi Airport.",
+        "He was there with his three children before dinner time on Sunday.",
+        "Restaurant staff recognised him and asked for a photo, which he agreed to.",
+        "Hemsworth was in Singapore after filming in Thailand."
+      ],
+      "url": "https://mothership.sg/2026/10/chris-hemsworth-singapore-jewel-changi/"
+    },
+    {
+      "src": "mother",
+      "date": "2026-11-01",
+      "headline": "Thin boy in China with poor appetite assumed ill, but devours KFC meal, doctor finds out home-cooked food not tasty",
+      "bullets": [
+        "A thin boy in China who refused to eat was given KFC by a doctor.",
+        "The boy ate the fast food eagerly, suggesting he disliked home-cooked meals.",
+        "Doctors advised parents not to force picky eaters and consider their food preferences.",
+        "Adults and children can have different tastes, so meals might need changing."
+      ],
+      "url": "https://mothership.sg/2026/10/china-boy-refuses-eat-finishes-kfc-hospital/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-30",
+      "headline": "Jewel Changi Airport Guide: 23 Things To Do The Next Time You Have A Layover At The World’s Best Airport",
+      "bullets": [
+        "Jewel Changi Airport features the world's tallest indoor waterfall, the Rain Vortex, which is 40m high.",
+        "You can watch a light and sound show at the Rain Vortex every night.",
+        "The Forest Valley has many plants and walking paths, offering a cool indoor nature experience.",
+        "Canopy Park on the top floor has attractions like mazes and thrilling slides for all ages.",
+        "There are also themed gardens and animal topiary sculptures made of flowers."
+      ],
+      "url": "https://thesmartlocal.com/read/jewel-changi-airport/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-30",
+      "headline": "We Got To Ride Sentosa’s Self-Driving Shuttle Service Before It Launches In 2027 & Here’s What It’s Like",
+      "bullets": [
+        "Sentosa will launch a free self-driving shuttle service in early 2027.",
+        "The electric shuttles use sensors and cameras to navigate the island.",
+        "Rides can be booked via the TADA app, with a safety operator onboard during trials.",
+        "The first phase covers western Sentosa with 21 pick-up and drop-off points.",
+        "The shuttle stops cautiously for pedestrians and brakes smoothly."
+      ],
+      "url": "https://thesmartlocal.com/read/sentosa-autonomous-vehicles/"
+    },
+    {
+      "src": "tsl",
+      "date": "2026-10-30",
+      "headline": "You Can Kayak Through Punggol On A Guided Tour To Explore The Waterways & Spot Wildlife",
+      "bullets": [
+        "You can now kayak on a guided 5km to 6km tour through Punggol Waterway.",
+        "The tour uses special kayaks pedalled by your feet, freeing your hands for photos.",
+        "Spot wildlife like otters, monitor lizards, and over 100 bird species.",
+        "Beginners are welcome, with instructors guiding you and providing safety gear.",
+        "Sessions last two hours and cost from $49.90 per person."
+      ],
+      "url": "https://thesmartlocal.com/read/river-of-life-kayak-tour-punggol/"
+    }
+  ]
+}
